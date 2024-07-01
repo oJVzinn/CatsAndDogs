@@ -4,16 +4,24 @@ function Header( {logo} ) {
     return(
         <header className={styles.header}>
             <div>
-                <span>Cats&Dogs</span>
-                <a href="#"><img src={`/images/${logo}.png`} alt="logo"/></a>
+                <a href="#"><img src={`/images/${logo}.png`} alt="logo" style={{height: '100px', width: '200px'}}/></a>
+                <span className={styles.header_name}>Cats&Dogs</span>
             </div>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Prices</a>
-                <a href="#">Contact</a>
+                <ul id={styles.nav_itens}>
+                    <li>
+                        <a href="#" className={styles.nav_item}>Ínicio</a>
+                    </li>
+                    <li>
+                        <a href="#" className={styles.nav_item}>Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#" className={styles.nav_item}>Contato</a>
+                    </li>
+                </ul>
             </nav>
         </header>
     );
 }
 
-export default Header;
+export default Header; 
