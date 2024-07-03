@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header logo="logo"/>
-      <Banner banner="banner" logo="logo"/>
+      <Banner banner="banner2" logo="logo"/>
       <Container>
         <Services/>
       </Container>

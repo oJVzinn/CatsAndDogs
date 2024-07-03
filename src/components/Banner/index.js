@@ -8,7 +8,7 @@ function Banner( { banner, logo } ) {
             style={{backgroundImage: `url(/images/${banner}.png)`}}>
             </div>
 
-            <div style={{backgroundColor: '#ADD8E6'}} className={styles.container}>
+            <div style={{backgroundColor: '#FFEDDD'}} className={styles.container}>
                 <img src={`/images/${logo}.png`} alt="logo" style={{ height: '250px', width: '500px' }}/>
                 <div className={styles.container} style={{ flexDirection: "column" }}>
                     <h2 id={styles.title}>Bem-vindo ao Cats&Dogs!</h2>
